@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FURIA Chat - Fã Interativo
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+O **FURIA Chat** é uma aplicação de chat interativo desenvolvida para os fãs do time de CS2 da FURIA. Utilizando a tecnologia de IA do **Google Gemini**, o projeto visa criar uma experiência única para os torcedores interagirem com a equipe, tirarem dúvidas sobre o time, acompanhar o status de jogos, e muito mais.
 
-```bash
+Este projeto foi desenvolvido como parte do **Challenge #1: Experiência Conversacional [NORMAL]**, com o objetivo de criar um caso de uso conversacional que engaja os fãs da FURIA, proporcionando uma comunicação dinâmica e personalizada com a IA.
+
+## Funcionalidades
+
+- **Interação em tempo real**: O chat permite aos fãs interagir com uma IA que responde perguntas sobre o time de CS da FURIA, seus jogadores, resultados de partidas e curiosidades.
+- **Personalização de resposta**: A IA foi treinada para responder com a personalidade da FURIA, utilizando uma linguagem empolgante, enérgica e característica da equipe.
+- **Histórico de mensagens**: As conversas são salvas localmente para que os usuários possam revisar o histórico de interações.
+- **Responsividade**: A interface foi desenvolvida para ser responsiva, proporcionando uma boa experiência tanto em desktop quanto em dispositivos móveis.
+
+## Objetivo do Projeto
+
+O projeto tem como objetivo proporcionar uma experiência de fã imersiva e interativa com o time da FURIA, permitindo aos torcedores acompanhar o time, fazer perguntas, interagir em tempo real e obter informações de forma dinâmica.
+
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework utilizado para o desenvolvimento da aplicação.
+- **Google Gemini**: API de IA usada para gerar respostas interativas e engajantes.
+- **Tailwind CSS**: Framework CSS para estilização da aplicação.
+- **LocalStorage**: Para salvar o histórico de chat do usuário.
+
+## Como Rodar o Projeto
+
+1. **Clonar o repositório**
+
+   ```bash
+   git clone https://github.com/usuario/furia-chat.git
+   
+## Instalar as dependências
+
+2. **Navegue até o diretório do projeto e execute o comando:**
+
+````bash
+cd furia-chat
+npm install
+````
+## Configurar a chave da API do Gemini
+
+Crie um arquivo .env.local na raiz do projeto e adicione sua chave da API do Google Gemini:
+
+`````bash
+NEXT_PUBLIC_GEMINI_API_KEY=SuaChaveDeAPI
+`````
+## Rodar a aplicação
+
+Para rodar a aplicação em desenvolvimento, execute o comando:
+
+`````bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`````
+A aplicação estará disponível em **http://localhost:3000**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Desafio
+Este projeto foi desenvolvido como parte do Challenge #1: Experiência Conversacional [NORMAL]. O objetivo do desafio era criar um caso de uso conversacional que proporcionasse aos fãs da FURIA uma forma divertida e envolvente de interagir com o time e acompanhar o que está acontecendo no universo do CS2.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Proposta:
+Criar um chat interativo para os fãs da FURIA.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Permitir interações dinâmicas com a IA sobre o time e seus jogadores.
 
-## Learn More
+Integrar a experiência com a API do Google Gemini para respostas personalizadas.
 
-To learn more about Next.js, take a look at the following resources:
+Ideias Inspiradoras
+Simulador de conversa de torcida: Um chat que imita a conversa e as emoções da torcida durante as partidas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Live status de jogos: Um chat que atualiza os fãs com o status ao vivo das partidas da FURIA.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contato Inteligente (Whatsapp): Integração com canais de comunicação da FURIA para estreitar a relação com os fãs.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Licença
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.
