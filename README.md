@@ -70,7 +70,5 @@ Simulador de conversa de torcida: Um chat que imita a conversa e as emoções da
 
 Live status de jogos: Um chat que atualiza os fãs com o status ao vivo das partidas da FURIA.
 
-Contato Inteligente (Whatsapp): Integração com canais de comunicação da FURIA para estreitar a relação com os fãs.
-
 Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.
